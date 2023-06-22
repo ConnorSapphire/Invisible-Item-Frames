@@ -1,0 +1,17 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:item_frame"
+		},
+		"title": "Invisible Item Frames",
+		"description": ["",{"text":"Create a frame stripper, and right click on any item frame you want to make invisible.","color":"gold"}],
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+    "parent": "sapphire_packs:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}
